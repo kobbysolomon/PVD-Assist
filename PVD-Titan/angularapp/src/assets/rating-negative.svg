@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke: #df2901;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #df2901;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="0" width="100" height="100"/>
+  <g>
+    <path class="cls-3" d="m31.04,71.13l-3.24-4.34c.22-.17,22.42-16.41,44.41,0l-3.23,4.34c-18.71-13.95-37.15-.58-37.93,0Z"/>
+    <path class="cls-2" d="m50,12.11c20.9,0,37.89,17,37.89,37.89s-17,37.89-37.89,37.89S12.11,70.9,12.11,50,29.1,12.11,50,12.11m0-5.41C26.08,6.69,6.69,26.08,6.69,50s19.39,43.31,43.31,43.31,43.31-19.39,43.31-43.31S73.92,6.69,50,6.69h0Z"/>
+    <circle class="cls-3" cx="34.93" cy="40.89" r="7.54"/>
+    <circle class="cls-3" cx="65.44" cy="40.89" r="7.54"/>
+    <rect class="cls-3" x="23.99" y="30.64" width="21.88" height="5.41"/>
+    <rect class="cls-3" x="54.13" y="30.64" width="21.88" height="5.41"/>
+  </g>
+</svg>
