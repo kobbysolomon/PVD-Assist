@@ -41,6 +41,10 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
     padding: 5% !important;
   }
   
+  .pd-6{
+    padding: 6%;
+  }
+
   .pd-8 {
     padding: 8% !important;
   }
@@ -56,6 +60,16 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
   .pd-lr-4{
     padding-left: 4%;
     padding-right: 4%;
+  }
+
+  .pd-lr-3{
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .pd-lr-2{
+    padding-left: 2%;
+    padding-right: 2%;
   }
   
   .lgText {
@@ -78,3 +92,14 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
     background-color: #F6F4F5;
   }
   
+  .spacer-3 {
+    margin-top: 3%;
+  }
+
+  .spacer-1 {
+    margin-top: 1%;
+  }
+
+  .main-heading {
+    color:#330000;
+  }
