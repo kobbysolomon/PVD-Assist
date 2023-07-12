@@ -1,0 +1,21 @@
+footer {
+  left: 0;
+  width: 100%;
+  background-color: #330000; /* Set the background color as desired */
+  padding: 5px; /* Set the padding as desired */
+  color: white;
+}
+
+.content-holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

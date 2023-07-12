@@ -1,0 +1,64 @@
+a {
+  text-decoration: none;
+}
+
+.header-section {
+  background-color: #ffffff; /* Replace with your desired background color */
+  border-bottom: 1px solid #ccc; /* Replace with your desired line color and style */
+
+  
+}
+
+.content-holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.profile-icon {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 99px;
+  border-color: var(--ups-brand-colors-ups-gold, #FFC400);
+  background: var(--ups-brand-colors-ups-gold, #FFC400);
+  margin-left: 40px;
+}
+
+.about-button {
+  text-decoration: none;
+  color: #330000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 33px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center center;
+  margin-right: 40px;
+}
+
+.locations-link {
+  font-size: large;
+  color: #330000;
+}
