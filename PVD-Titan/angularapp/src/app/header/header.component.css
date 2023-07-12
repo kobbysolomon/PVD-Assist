@@ -5,14 +5,16 @@ a {
 .header-section {
   background-color: #ffffff; /* Replace with your desired background color */
   border-bottom: 1px solid #ccc; /* Replace with your desired line color and style */
+
+  
 }
 
 .content-holder {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   font-weight: 600;
 }
 
