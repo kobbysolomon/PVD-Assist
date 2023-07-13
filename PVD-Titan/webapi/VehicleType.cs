@@ -2,9 +2,8 @@
 {
     public class VehicleType
     {
-        public int Id { get; set; }
-        public string? Type { get; set; }
-        public decimal Width { get; set; }
-        public decimal Height { get; set; }
+        public string? Vehicle_type { get; set; }
+        public decimal Avg_width { get; set; }
+        public decimal Avg_height { get; set; }
     }
 }

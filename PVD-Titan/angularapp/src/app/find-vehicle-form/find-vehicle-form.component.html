@@ -1,0 +1,164 @@
+<div class="body-background">
+  <div class="container">
+    <div class="">
+      <div class="top-padding"></div>
+
+      <!-- <div class="row">
+        <img src="assets/road-rotated.gif" alt="" />
+      </div> -->
+
+      <div class="row">
+        <div class="spacer-3"></div>
+        <div class="col">
+          <h2 class="main-heading">Enter Vehicle Details</h2>
+          <p>Enter your car’s year, make, and model</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class="card mb-15" style="width: 100%">
+            <div class=""></div>
+            <!-- <a href="#"> -->
+            <div class="card-body pd-8">
+              <div class="row">
+                <div class="col">
+                  <div class="icon-container">
+                    <img src="assets/icon-form.svg" width="100" />
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="check-container">
+                    <img src="assets/check.svg" width="30" alt="" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <h5 class="card-title">Enter Vehicle Details</h5>
+                <p class="card-text">Enter your car’s year, make, and model</p>
+              </div>
+            </div>
+            <!-- </a> -->
+          </div>
+        </div>
+
+        <div class="col-md-8 col-sm-12">
+          <div class="card mb-15" style="width: 100%">
+            <div class=""></div>
+            <!-- <a href="#"> -->
+            <div class="card-body pd-6">
+              <div class="row mb-10">
+                <form (ngSubmit)="onSubmit()">
+                  <div class="row mb-10">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                      <label for="year_of_manufacture"
+                        >Year of Manufacture:</label
+                      >
+                      <select
+                        class="form-select"
+                        aria-label="Default select example"
+                        id="year_of_manufacture"
+                        [(ngModel)]="yearOfManufacture"
+                        name="yearOfManufacture"
+                      >
+                        <option value="" selected disabled>Select One</option>
+                        <option value="1984">1984</option>
+                        <option value="1985">1985</option>
+                        <option value="1988">1988</option>
+                        <option value="1992">1992</option>
+                        <option value="1998">1998</option>
+                        <option value="1999">1999</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2003">2003</option>
+                        <option value="2004">2004</option>
+                        <option value="2006">2006</option>
+                        <option value="2009">2009</option>
+                        <option value="2012">2012</option>
+                        <option value="2014">2014</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                      </select>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12"></div>
+                  </div>
+              
+                  <div class="row mb-20">
+                    <div class="col-lg-6 col-md-12 col-sm-12 mb-10">
+                      <label for="vehicle_make">Vehicle Make:</label>
+                      <select
+                        class="form-select"
+                        aria-label="Default select example"
+                        id="vehicle_make"
+                        name="vehicleMake"
+                      >
+                        <option value="" selected disabled>Select One</option>
+                        <option value="audi">Audi</option>
+                        <option value="bmw">BMW</option>
+                        <option value="buick">Buick</option>
+                        <option value="cadillac">Cadillac</option>
+                        <option value="chevrolet">Chevrolet</option>
+                        <option value="ford">Ford</option>
+                        <option value="hyundai">Hyundai</option>
+                        <option value="import foreign auto sales inc">
+                          Import Foreign Auto Sales Inc
+                        </option>
+                        <option value="mazda">Mazda</option>
+                        <option value="saturn">Saturn</option>
+                        <option value="subaru">Subaru</option>
+                        <option value="toyota">Toyota</option>
+                        <option value="volkswagen">Volkswagen</option>
+                        <option value="volvo">Volvo</option>
+                      </select>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 ">
+                      <label for="vehicle_model">Vehicle Model:</label>
+                      <select
+                        class="form-select"
+                        aria-label="Defaultselect example"
+                        id="vehicle_model"
+                        name="vehicleModel"
+                      >
+                        <option value="" selected disabled value="">
+                          Select One
+                        </option>
+                        <option value="1fas 410">1fas 410</option>
+                        <option value="5 Series">5 Series</option>
+                        <option value="626">626</option>
+                        <option value="A8 L">A8 L</option>
+                        <option value="Century">Century</option>
+                        <option value="Corolla">Corolla</option>
+                        <option value="DTS">DTS</option>
+                        <option value="Eos">Eos</option>
+                        <option value="Escort Wagon">Escort Wagon</option>
+                        <option value="Forester AWD">Forester AWD</option>
+                        <option value="Lumina">Lumina</option>
+                        <option value="Legacy/Outback">Legacy/Outback</option>
+                        <option value="Santa Fe 2WD">Santa Fe 2WD</option>
+                        <option value="SW">SW</option>
+                        <option value="V70 FWD">V70 FWD</option>
+                        <option value="XTS Limo">XTS Limo</option>
+                      </select>
+                    </div>
+                  </div>
+                 
+                  <div class="row mb-10">
+                    <div class="col-lg-6 col-md-12 col-sm-12 ">
+                        <button type="button" class="btn btn-outline-primary "><i class="bi bi-chevron-left"></i>&nbsp;Start Over</button>&nbsp;
+                        <button  (click)="onSubmit()" class="btn btn-success ups-green " type="submit">Next&nbsp;<i class="bi bi-chevron-right"></i></button>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12"></div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- </a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="spacer-1"></div>
+  <div class="top-padding"></div>
+</div>

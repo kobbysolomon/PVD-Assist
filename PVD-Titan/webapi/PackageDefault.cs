@@ -2,7 +2,7 @@
 {
     public class PackageDefault
     {
-        public int Id { get; set; }
+        public int Pkg_id { get; set; }
         public decimal Pkg_length { get; set; }
         public decimal Pkg_width { get; set; }
         public decimal Pkg_height { get; set; }
