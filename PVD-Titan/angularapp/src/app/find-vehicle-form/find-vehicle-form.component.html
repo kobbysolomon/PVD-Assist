@@ -49,7 +49,7 @@
             <!-- <a href="#"> -->
             <div class="card-body pd-6">
               <div class="row mb-10">
-                <form>
+                <form (ngSubmit)="submitForm()">
                   <div class="row mb-10">
                     <div class="col-lg-6 col-md-12 col-sm-12">
                       <label for="year_of_manufacture"
@@ -59,6 +59,8 @@
                         class="form-select"
                         aria-label="Default select example"
                         id="year_of_manufacture"
+                        [(ngModel)]="yearOfManufacture"
+                        name="yearOfManufacture"
                       >
                         <option value="" selected disabled>Select One</option>
                         <option value="1984">1984</option>
@@ -89,6 +91,7 @@
                         class="form-select"
                         aria-label="Default select example"
                         id="vehicle_make"
+                        name="vehicleMake"
                       >
                         <option value="" selected disabled>Select One</option>
                         <option value="audi">Audi</option>
@@ -115,6 +118,7 @@
                         class="form-select"
                         aria-label="Defaultselect example"
                         id="vehicle_model"
+                        name="vehicleModel"
                       >
                         <option value="" selected disabled value="">
                           Select One
@@ -141,8 +145,8 @@
                  
                   <div class="row mb-10">
                     <div class="col-lg-6 col-md-12 col-sm-12 ">
-                        <button type="button" class="btn btn-outline-primary ">Start Over</button>&nbsp;
-                        <button class="btn btn-success ups-green " type="submit">Next</button>
+                        <button type="button" class="btn btn-outline-primary "><i class="bi bi-chevron-left"></i>&nbsp;Start Over</button>&nbsp;
+                        <button class="btn btn-success ups-green " type="submit">Next&nbsp;<i class="bi bi-chevron-right"></i></button>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12"></div>
                   </div>
