@@ -15,6 +15,7 @@ import { ResultsComponent } from './results/results.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
   { path: 'find-vehicle', component: FindVehicleFormComponent },
   { path: 'additional-details', component: AdditionalDetailsComponent },
   { path: 'results', component: ResultsComponent },
