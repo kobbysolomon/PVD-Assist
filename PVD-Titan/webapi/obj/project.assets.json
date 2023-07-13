@@ -8314,19 +8314,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\BHL5GVK\\.nuget\\packages\\": {}
+    "C:\\Users\\NXP5VRF\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\BHL5GVK\\Documents\\Dev\\Hackathon\\Tech-Titans\\PVD-Titan\\webapi\\webapi.csproj",
+      "projectUniqueName": "C:\\Users\\NXP5VRF\\Documents\\Tech-Titans\\PVD-Titan\\webapi\\webapi.csproj",
       "projectName": "webapi",
-      "projectPath": "c:\\Users\\BHL5GVK\\Documents\\Dev\\Hackathon\\Tech-Titans\\PVD-Titan\\webapi\\webapi.csproj",
-      "packagesPath": "C:\\Users\\BHL5GVK\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\BHL5GVK\\Documents\\Dev\\Hackathon\\Tech-Titans\\PVD-Titan\\webapi\\obj\\",
+      "projectPath": "C:\\Users\\NXP5VRF\\Documents\\Tech-Titans\\PVD-Titan\\webapi\\webapi.csproj",
+      "packagesPath": "C:\\Users\\NXP5VRF\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\NXP5VRF\\Documents\\Tech-Titans\\PVD-Titan\\webapi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\BHL5GVK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\NXP5VRF\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -20,10 +20,6 @@ const dbConfig = {
 
 
 export class DatabaseService {
-
-  
-  
-
   private apiUrl = 'https://pvd-titan-apim.azure-api.net'; // Replace with your API endpoint
 
   constructor(private http: HttpClient) {}

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { DatabaseService } from '../database.service';
 import { FormsModule } from '@angular/forms';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-find-vehicle-form',
@@ -15,19 +16,26 @@ export class FindVehicleFormComponent {
   vehicleModel: string = '';
   
   data?:any;
-  error?:any;
+  error?: any;
 
-  constructor(private databaseService: DatabaseService) {}
+  public packages?: PackageDefault[];
 
-  submitForm() {
-    this.databaseService.queryDatabase(this.yearOfManufacture, this.vehicleMake, this.vehicleModel)
-      .subscribe(
-        (data) => {
-          console.log(data);  
-          this.retrievedData = data;       },
-        (error) => {
-          // Handle errors
-        }
-      );
+  constructor(private http: HttpClient) { }
+
+  onSubmit() {
+    this.http.get<PackageDefault[]>("/form").subscribe(
+      result => {
+        this.packages = result;
+      }, error => console.error(error));
   }
+  
 }
+interface PackageDefault {
+  pkg_id: number,
+  pkg_length: number,
+  pkg_width: number,
+  pkg_height: number,
+  pkg_volume: number,
+  pkg_type: string
+}
+

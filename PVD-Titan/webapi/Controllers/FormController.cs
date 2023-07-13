@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace webapi.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
     public class FormController : ControllerBase
     {
         private readonly CarDBContext _context;
@@ -14,7 +16,7 @@ namespace webapi.Controllers
             _context = context;
         }
 
-        [HttpGet]
+        [HttpGet(Name = "GetPackages")]
         public IEnumerable<PackageDefault> Get() {
             var packageDefaults = _context.PackageDefaults;
             var pvds = _context.Cars;
@@ -63,7 +65,7 @@ namespace webapi.Controllers
                 }
             }
 
-            return assignedPackages;
+            return assignedPackages.ToArray();
         }
     }
 }
