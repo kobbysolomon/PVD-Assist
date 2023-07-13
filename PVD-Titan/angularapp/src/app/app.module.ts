@@ -12,6 +12,8 @@ import { FooterComponent } from './footer/footer.component';
 import { FindVehicleFormComponent } from './find-vehicle-form/find-vehicle-form.component';
 import { AdditionalDetailsComponent } from './additional-details/additional-details.component';
 import { ResultsComponent } from './results/results.component';
+import { ScanInputComponent } from './scan-input/scan-input.component';
+import { VinSearchComponent } from './vin-search/vin-search.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -29,6 +31,8 @@ const routes: Routes = [
     FindVehicleFormComponent,
     AdditionalDetailsComponent,
     ResultsComponent,
+    ScanInputComponent,
+    VinSearchComponent,
   ],
   imports: [
     BrowserModule,

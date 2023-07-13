@@ -1,0 +1,49 @@
+.top-padding {
+  padding-top: 5% !important;
+}
+
+.body-background {
+  background-color: #F6F4F5;
+}
+
+.icon-container {
+  width: auto;
+  float: left;
+  /* margin: auto; */
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+}
+
+.check-container {
+  float: right;
+}
+
+.card a {
+  text-decoration: none;
+  color: #222222;
+}
+
+  .card a:hover {
+    border: 1px solid #ffbe00 !important;
+    border-radius: 0.375rem;
+  }
+
+
+.card-title {
+  color: #330000;
+}
+
+.insight-card {
+  text-align: center;
+}
+
+.insight-payload {
+  color: #ffbe00;
+}
+
+.insight-description {
+  font-weight: 500;
+}
